@@ -13,4 +13,4 @@ class CVTemplate(models.Model):
     employments = models.JSONField(default=list)  # Store as JSON array
     educations = models.JSONField(default=list)  # Store as JSON array
     projects = models.JSONField(default=list)  # Store as JSON array
-    type = models.TextField(blank=True)
+    type = models.TextField()
